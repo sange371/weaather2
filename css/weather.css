@@ -1,0 +1,66 @@
+.container{
+    background:rgb(152, 152, 152);
+    display:block;
+    margin:60px auto;
+    border:1px solid rgb(79, 79, 79);
+    border-radius:6px;
+    height:250px;
+    width:550px;
+    
+}
+.emoji{
+    position:relative;
+    top:-45px;
+    right:-390px;
+    font-size:35px;
+}
+.temperature{
+    position:relative;
+    top:-40px;
+    right:-400px;
+    font-size:50px;
+    font-style: bold;
+}
+.degrees{
+    position:relative;
+    top:-60px;
+    right:-402px;
+    font-size:20px;
+}
+#user-input{
+    padding:10px;
+
+}
+#city-name-input{
+    padding:10px;
+    width:380px;
+    font-size:14px;
+    background:rgb(241, 241, 241);
+    border:1px solid rgb(231, 231, 231);
+    border-radius:4px;
+
+}
+#submit-button{
+    padding:10px;
+    width:90px;
+    font-size:16px;
+    background:rgb(61, 122, 255);
+    border:none;
+    border-radius:4px;
+    color:white;
+}
+body{
+    background: linear-gradient(90deg, #989797 ,#434242);
+    color:black;
+    line-height:25px;
+}
+footer{
+    display:flex;
+    justify-content:center;
+
+   
+}
+main{
+    padding:5px;
+    
+}
